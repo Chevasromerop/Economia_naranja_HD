@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infografía | Economía Naranja</title>
+    <title>Infografía Prosumidor | Economía Naranja</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Montserrat:wght@300;400;900&display=swap" rel="stylesheet">
 </head>
@@ -11,63 +11,81 @@
 
     <div class="poster">
         <header class="main-header">
-            <div class="decorative-line"></div>
             <h1>MI CONSUMO <span>NARANJA</span></h1>
-            <p class="subtitle">ANÁLISIS PROSUMIDOR | DISEÑO HIPERMEDIA</p>
+            <p class="subtitle">ESTUDIANTE DE DISEÑO HIPERMEDIA</p>
         </header>
 
         <div class="infographic-grid">
+            
             <section class="section">
-                <div class="number-bg">01</div>
-                <h2>INDUSTRIAS CULTURALES</h2>
-                <div class="data-focus">
-                    <span class="big-number" id="hours-counter">0h</span>
-                    <p class="data-label">YouTube / Twitch diarios</p>
+                <h2>01. DATOS DE CONSUMO SEMANAL</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Categoría</th>
+                                <th>Frecuencia</th>
+                                <th>Intensidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Streaming (YT/Twitch)</td>
+                                <td>Diario</td>
+                                <td class="bar-cell"><div class="bar-level" style="width: 100%;">70h</div></td>
+                            </tr>
+                            <tr>
+                                <td>Videojuegos</td>
+                                <td>4 veces/sem</td>
+                                <td class="bar-cell"><div class="bar-level" style="width: 60%;">15h</div></td>
+                            </tr>
+                            <tr>
+                                <td>Museos / Arte</td>
+                                <td>Mensual</td>
+                                <td class="bar-cell"><div class="bar-level" style="width: 15%;">2h</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <p class="tagline">"Ruido productivo y formación técnica constante."</p>
             </section>
 
             <section class="section">
-                <div class="number-bg">02</div>
-                <h2>SOFTWARE & GAMING</h2>
-                <p class="instruction">(Haz clic en los elementos)</p>
+                <h2>02. ECOSISTEMA DIGITAL</h2>
                 <div class="apps-container">
                     <div class="app-item" data-info="brain">NOTION</div>
                     <div class="app-item" data-info="curatory">INSTAGRAM</div>
                     <div class="app-item" data-info="uiux">FIGMA</div>
                 </div>
-                <div class="gaming-stats clickable-game">
-                    <p>GAMING: COD / FORTNITE / MARIO PARTY</p>
-                    <div class="progress-container">
-                        <div class="progress-bar"></div>
-                    </div>
+                <div class="chart-container">
+                    <p>DISTRIBUCIÓN POR INTERÉS:</p>
+                    <div class="stat-row"><span>Técnico (Diseño/Código)</span> <div class="stat-bar orange" style="width: 85%;">85%</div></div>
+                    <div class="stat-row"><span>Entretenimiento Puro</span> <div class="stat-bar green" style="width: 15%;">15%</div></div>
                 </div>
             </section>
 
             <section class="section">
-                <div class="number-bg">03</div>
-                <h2>ARTES & PATRIMONIO</h2>
-                <div class="museum-card">
-                    <p class="main-art-text">EXPOSICIONES ALTERNATIVAS</p>
-                    <p class="secondary-art-text">VISITA MENSUAL A MUSEOS</p>
-                    <div class="curadoria">
-                        <span>REFERENTES:</span> Motion Graphics & Foto
-                    </div>
+                <h2>03. GALERÍA DE REFERENTES</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" title="Marcos Alberca"><span>M. ALBERCA</span></div>
+                    <div class="gallery-item" title="Juan Sin Miedo"><span>J. SIN MIEDO</span></div>
+                    <div class="gallery-item" title="Temi Coker"><span>T. COKER</span></div>
+                    <div class="gallery-item" title="Perazna"><span>PERAZNA</span></div>
                 </div>
+                <p class="gallery-note">Curaduría basada en Motion Graphics y Fotografía Experimental.</p>
             </section>
+
         </div>
 
         <footer class="conclusion">
-            <h3>REFLEXIÓN</h3>
-            <p>"No consumo entretenimiento, consumo referencias. Mi formación convierte el ocio en investigación técnica."</p>
-            <div class="author">ECONOMÍA NARANJA 2026</div>
+            <h3>REFLEXIÓN FINAL</h3>
+            <p>"Mi formación en Diseño Hipermedia convierte el ocio en una fase de investigación técnica y estética."</p>
         </footer>
     </div>
 
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2 id="modal-title">DETALLES</h2>
+            <h2 id="modal-title">INFO</h2>
             <p id="modal-text"></p>
         </div>
     </div>
