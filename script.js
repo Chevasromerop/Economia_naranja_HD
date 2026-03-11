@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = "block";
     });
 
-    // Cerrar Modal
     closeBtn.onclick = () => modal.style.display = "none";
     window.onclick = (e) => { if(e.target == modal) modal.style.display = "none"; }
 });
