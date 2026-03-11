@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía | Economía Naranja</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Montserrat:wght@300;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="poster">
+        <header class="main-header">
+            <div class="decorative-line"></div>
+            <h1>MI CONSUMO <span>NARANJA</span></h1>
+            <p class="subtitle">ANÁLISIS PROSUMIDOR | DISEÑO HIPERMEDIA</p>
+        </header>
+
+        <div class="infographic-grid">
+            <section class="section">
+                <div class="number-bg">01</div>
+                <h2>INDUSTRIAS CULTURALES</h2>
+                <div class="data-focus">
+                    <span class="big-number" id="hours-counter">0h</span>
+                    <p class="data-label">YouTube / Twitch diarios</p>
+                </div>
+                <p class="tagline">"Ruido productivo y formación técnica constante."</p>
+            </section>
+
+            <section class="section">
+                <div class="number-bg">02</div>
+                <h2>SOFTWARE & GAMING</h2>
+                <p class="instruction">(Haz clic en los elementos)</p>
+                <div class="apps-container">
+                    <div class="app-item" data-info="brain">NOTION</div>
+                    <div class="app-item" data-info="curatory">INSTAGRAM</div>
+                    <div class="app-item" data-info="uiux">FIGMA</div>
+                </div>
+                <div class="gaming-stats clickable-game">
+                    <p>GAMING: COD / FORTNITE / MARIO PARTY</p>
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="number-bg">03</div>
+                <h2>ARTES & PATRIMONIO</h2>
+                <div class="museum-card">
+                    <p class="main-art-text">EXPOSICIONES ALTERNATIVAS</p>
+                    <p class="secondary-art-text">VISITA MENSUAL A MUSEOS</p>
+                    <div class="curadoria">
+                        <span>REFERENTES:</span> Motion Graphics & Foto
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="conclusion">
+            <h3>REFLEXIÓN</h3>
+            <p>"No consumo entretenimiento, consumo referencias. Mi formación convierte el ocio en investigación técnica."</p>
+            <div class="author">ECONOMÍA NARANJA 2026</div>
+        </footer>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">DETALLES</h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
